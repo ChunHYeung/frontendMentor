@@ -2,10 +2,23 @@
     box-sizing: border-box;
 }
 
+
 body {
     background-color: hsl(30, 38%, 92%);
 }
 
+p {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.prod-title {
+    font-size: 1.15em;
+}
+
+.price {
+    font-family: 'Fraunces', serif;
+}
 .wrapper {
     position: absolute;
     top: 50%;
@@ -18,8 +31,10 @@ body {
     border-radius: 5%;
     overflow: hidden;
     display: grid;
+    gap: 1rem;
     grid-template-columns: 1fr 1fr;
     min-width: 375px;
+    max-width: 600px;
 }
 
 @media (max-width: 375px) {
