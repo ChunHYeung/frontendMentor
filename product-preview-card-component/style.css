@@ -20,6 +20,19 @@ img {
     display: block;
 }
 
+button {
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 100%;
+    border: none;
+    border-radius: 12px;
+    height: 3rem;
+    margin-top: 1rem;
+}
+
 .wrapper {
     position: absolute;
     top: 50%;
@@ -28,7 +41,7 @@ img {
 }
 
 .prod-title {
-    font-size: 2rem;
+    font-size: 1.75rem;
     color: hsl(212, 21%, 14%);
     font-weight: 700;
     font-family: 'Fraunces', serif;
@@ -42,7 +55,7 @@ img {
     display: flex;
     align-items: center;
     gap: 1rem;
-    max-height: 2.5rem;
+    max-height: 2rem;
 }
 
 .reduced-price {
