@@ -91,12 +91,21 @@ img {
     color: var(--clr-primary-bright);
 }
 
+.order-change:hover {
+    text-decoration: none;
+    color: hsl(245, 100%, 75%);
+}
+
 .btn-procced {
     background-color: var(--clr-primary-bright);
     border-radius: 12px;
     padding: 1rem;
-    margin-bottom: 1rem;
-    box-shadow: 5px 5px 50px 5px hsl(245, 100%, 75%);
+    margin-bottom: 2.5rem;
+    box-shadow: 1px 5px 25px 1px hsl(245, 100%, 75%);
+}
+
+.btn-procced:hover {
+    background-color: hsl(245, 100%, 75%)
 }
 
 .btn-procced a {
@@ -107,14 +116,14 @@ img {
 }
 
 .btn-cancel {
-    background-color: white;
-}
-
-.btn-cancel a {
     color: var(--clr-neutral-desaturated);
     text-decoration: none;
     font-size: 1rem;
     font-weight: 700;
+}
+
+.btn-cancel:hover {
+    color: var(--clr-neutral-dark);
 }
 
 @media screen and (max-width: 376px) {
@@ -124,5 +133,13 @@ img {
 
     .container {
         width: 300px;
+    }
+
+    .text-center {
+        padding: 1rem 1rem;
+    }
+
+    .flex-space {
+        padding-right: 1rem;
     }
 }
