@@ -1,5 +1,5 @@
 :root {
-    --font-family: font-family: 'Outfit', sans-serif;
+    --font-family: 'Outfit', sans-serif;
     --clr-primary-blue: hsl(215, 51%, 70%);
     --clr-primary-cyan: hsl(178, 100%, 50%);
     --clr-neutral-main-bg-blue: hsl(217, 54%, 11%);
@@ -35,12 +35,26 @@ svg {
 .wrapper {
     background-color: var(--clr-neutral-card-bg-blue);
     border-radius: 10px;
-    max-width: 450px;
+    min-width: 350px;
+    max-width: 500px;
     padding: 2em;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.font-300 {
+    font-weight: 300;
+}
+
+.font-400 {
+    font-weight: 400;
+}
+
+.font-600 {
+    font-weight: 600;
+    font-size: 1.5em;
 }
 
 .clr-white {
@@ -65,9 +79,9 @@ svg {
 }
 
 .avatar {
-    width: 3em;
-    height: 3em;
+    width: 2em;
+    height: 2em;
     filter:drop-shadow(2px 2px 5px var(--clr-neutral-white));
     margin-right: 1.5em;
-    margin-top: 0.5em;
+    margin-top: 0.75em;
 }
