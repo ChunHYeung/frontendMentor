@@ -13,21 +13,61 @@
 }
 
 body {
-    background-color: var(--clr-neutral-main-bg-blue);
+    /* background-color: var(--clr-neutral-main-bg-blue); */
 }
 
 p {
     color: var(--clr-primary-blue);
+    font-family: var(--font-family);
+    font-size: 18px;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+svg {
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .wrapper {
     background-color: var(--clr-neutral-card-bg-blue);
+    border-radius: 10px;
+    max-width: 450px;
+    padding: 2em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .clr-white {
     color: var(--clr-neutral-white);
 }
 
+.clr-eth {
+    color: var(--clr-primary-cyan);
+}
+
 .flex-wrapper {
-    display: flex;
+    display: flex;  
+}
+
+.flex-border {
+    border-top: 2px solid var(--clr-neutral-line-blue);
+    padding-top: 0.5em;
+}
+
+.flex-gap { 
+    justify-content: space-between;
+}
+
+.avatar {
+    width: 3em;
+    height: 3em;
+    filter:drop-shadow(2px 2px 5px var(--clr-neutral-white));
+    margin-right: 1.5em;
+    margin-top: 0.5em;
 }
